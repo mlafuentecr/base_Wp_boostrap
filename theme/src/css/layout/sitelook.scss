@@ -1,0 +1,24 @@
+
+body{
+font-family: $font-light;
+  line-height: 2em;
+  text-transform: uppercase;
+  height: 100vh;
+  background: color(navColor);
+  @include tablet {
+    // background-image: url("http://localhost/_github/wp_phonegap/wp-content/themes/themeMario/dist/img/bgLoging.jpg");
+    background-repeat: no-repeat;
+    background-size: initial 100%;
+    background-position: left top
+    }
+
+  }
+  
+  .wrapper {
+    position: relative;
+    @include tablet {
+    padding-right: 0rem;
+    padding-left: 0rem;
+    }
+  }
+ 
